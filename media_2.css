@@ -9,7 +9,7 @@
     }
 
     div.header h1 {
-        font-size: 14pt;
+        font-size: 18pt;
     }
 
     div.nav_topic_menu {
@@ -20,7 +20,7 @@
     }
 
     div.topic_menu > button {
-        padding: 1pt 7pt;
+        padding: 3pt 10pt;
         margin-top: 1pt;
     }
 
@@ -30,7 +30,7 @@
     }
 
     div.nav > p {
-       font-size: 8pt; 
+       font-size: 10pt; 
     }
 
     div.big_container{
@@ -43,17 +43,17 @@
         position: fixed;
         height: 500pt;
         z-index: 1;
-        width: 40%;
+        width: 50%;
         position: absolute;
     }
 
     div.container_1 p {
-        font-size: 8pt;
+        font-size: 12pt;
     }
 
     div.container_2 {
         width: 100%;
-        margin: 0pt
+        margin: 1pt
     }
 
     div.container_2 > div iframe {
@@ -62,7 +62,7 @@
 
     div.container_3 p {
         margin-top: 0pt;
-        font-size: small;
+        font-size: 12pt;
         padding: 5pt 0pt;
     } 
 }
