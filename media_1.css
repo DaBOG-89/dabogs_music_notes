@@ -1,0 +1,29 @@
+@media (max-width:1024px) {
+    body {
+        /*background-color: brown;*/
+        font-size: 10pt;
+    }
+
+    div.container_1 { 
+        font-size: 10pt;
+        height: 360pt;
+        flex: 0.8;
+    }
+
+    div.container_1 p {
+        font-size: 9pt;
+    }
+
+    div.container_2 {
+        flex: 2;
+        margin: 0.5pt 1pt 0.5pt 135pt;      
+    }
+
+    div.container_2 > div iframe {
+        height: 360pt;
+    }
+
+    div.container_3  {
+        flex: 0.1;  
+    }
+}

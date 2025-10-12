@@ -1,0 +1,16 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+@media (max-width:1200px) {
+   body {
+        text-align: left;
+    }
+}
+
+@media (max-width:600px) {
+    body {
+        font-size: 10pt;
+    }
+}

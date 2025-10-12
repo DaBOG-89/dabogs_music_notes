@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+div.container {
+    display: flex;
+    align-items: center;
+    gap: 10pt;
+    text-align: justify;
+}
+
+img {
+    width: 350pt;
+    border-radius: 10pt;
+}
+
+p {
+    border-bottom: 1pt solid black;
+    border-top: 1pt solid black;
+    padding: 5pt 0pt;
+}
+
+@media (max-width: 800px) {
+   img {
+        width: 250pt;
+    }
+
+    p {
+        font-size: 10pt;
+    }
+}
+
+@media (max-width: 600px) {
+    div.container {
+        flex-direction: column;
+    } 
+
+    img {
+        width: 300pt;
+    }
+
+    p {
+        font-size: 10pt;
+    }
+}
