@@ -20,6 +20,11 @@ p {
     padding: 5pt 0pt;
 }
 
+strong {
+    text-decoration: underline;
+    color: blue;
+}
+
 @media (max-width: 800px) {
    img {
         width: 250pt;

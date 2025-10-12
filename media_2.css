@@ -41,7 +41,7 @@
     div.container_1 { 
         font-size: 8pt;
         position: fixed;
-        height: 400pt;
+        height: 500pt;
         z-index: 1;
         width: 40%;
         position: absolute;
@@ -57,7 +57,7 @@
     }
 
     div.container_2 > div iframe {
-        height: 400pt;
+        height: 500pt;
     }
 
     div.container_3 p {
