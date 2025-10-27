@@ -8,7 +8,8 @@
     }
 
     div.big_container{
-        flex-direction: column;  
+        flex-direction: column;
+        
     }
 
     div.display {
@@ -29,6 +30,7 @@
         border: none;
         font-size: 12pt;
         font-weight: bold;
+        margin-top: 2pt;
     }
 
     div.nav {
@@ -37,7 +39,7 @@
     }
 
     div.nav p {
-       font-size: 8pt;
+       font-size: 6pt;
        margin: 0pt; 
     }
 
