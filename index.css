@@ -1,0 +1,173 @@
+* {
+    margin: 0pt;
+    padding: 0pt;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/*TOP BAR*/
+div.head_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+}
+
+div.header {
+    background-color: darkorchid;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.header img {
+    border-radius: 50%;
+    width: 50pt;
+}
+
+div.header h1 {
+    margin-left: 5pt;
+}
+
+/*TOP NAV BAR*/
+div.nav {
+    background-color: rgb(211, 0, 130);
+    /*
+    Used to contrast js for p hover
+    background-color: rgb(100, 6, 64);
+    */
+    border-top: 2pt solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.nav > p {
+    margin: 0pt 5pt;
+    padding: 2pt 5pt;
+    font-weight: bold;
+}
+
+div.landing_container{
+    width: 100%;
+    margin-top: 75pt;
+    text-align: center;
+}
+
+div.landing_header {
+    padding: 15pt 0pt;
+    background-color: rgb(9, 226, 226);
+    margin: 1pt 0pt;
+}
+
+div.landing_display iframe {
+    width: 100%;
+    height: 355pt;
+    background-color: rgb(125, 144, 179);
+}
+
+div.landing_container_2 {
+    flex: 1;
+    background-color: rgb(208, 218, 238);
+}
+
+div.landing_container_2 p {
+    animation: flashColor 0.25s infinite alternate;
+    border-radius: 15pt;
+    padding: 5pt;
+    font-size: 12pt;
+    border-top: 5pt solid white;
+    border-bottom: 5pt solid white;
+}
+
+/*BIG_COONTAINER IS FOR CONTAINER_1 AND CONTAINER_2*/
+div.big_container{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 75pt;
+}
+
+/*CONTAINER_1 FOR BOTH SIDE_BAR AND DISPLAY*/
+div.container_1{
+    display: inline-flex;
+    flex: 6;
+}
+
+/*SIDE_NAV SECTION*/
+div.theory_side_nav, div.piano_side_nav, div.violin_side_nav, div.guitar_side_nav, 
+div.voice_side_nav, div.recorder_side_nav, div.drum_kit_side_nav {
+    background-color: rgb(176, 231, 231);
+    flex: 1;
+    height: 400pt;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    /*position: fixed;Stops side by from scrolling along*/
+    text-align: left;
+}
+
+div.theory_side_nav p, div.piano_side_nav p, div.violin_side_nav p, div.guitar_side_nav p, 
+div.voice_side_nav p, div.recorder_side_nav p, div.drum_kit_side_nav p {
+    background-color: rgb(176, 231, 231);
+    /*border: 1pt solid black;*/
+    padding: 0pt 15pt;
+    font-size: 12pt;
+}
+
+div.theory_side_nav a, div.piano_side_nav a, div.violin_side_nav a, div.guitar_side_nav a, 
+div.voice_side_nav a, div.recorder_side_nav a, div.drum_kit_side_nav a {
+    text-decoration: none;
+    color: black;
+}
+
+div.theory_side_nav p.headline, div.piano_side_nav p.headline, div.violin_side_nav p.headline, div.guitar_side_nav p.headline, 
+div.voice_side_nav p.headline, div.recorder_side_nav p.headline, div.drum_kit_side_nav p.headline {
+    background-color: rgb(40, 143, 143);
+    border-top: 1pt solid white;
+    border-bottom: 1pt solid white;
+    padding: 0pt 5pt
+}
+ 
+div.theory_side_nav p:hover , div.piano_side_nav p:hover , div.violin_side_nav p:hover , div.guitar_side_nav p:hover, 
+div.voice_side_nav p:hover, div.recorder_side_nav p:hover , div.drum_kit_side_nav p:hover {
+    background-color: rgb(115, 185, 185);
+    border-left: 2pt  solid black;
+}
+
+/*DISPLAY_IFRAME SECTION*/
+div.theory_display, div.piano_display, div.violin_display, div.guitar_display,
+div.voice_display, div.recorder_display, div.drum_kit_display {
+    background-color: rgb(214, 247, 248);
+    flex: 3;
+    margin: 0.5pt 1pt 0.5pt 1pt; 
+}
+
+div.container_1 > div iframe {
+    width: 100%;
+    height: 400pt;
+}
+
+/*CONTAINER SECTION*/
+div.container_2 {
+    flex: 1;
+    background-color: rgb(208, 218, 238);
+}
+
+div.container_2 p {
+    margin-top: 70pt;
+    animation: flashColor 0.25s infinite alternate;
+    border-radius: 15pt;
+    padding: 5pt;
+    font-size: 12pt;
+    border-top: 5pt solid white;
+    border-bottom: 5pt solid white;
+}
+
+@keyframes flashColor {
+        from {background-color: rgb(230, 50, 161);}
+        to {background-color: rgb(115, 185, 185);}
+    }

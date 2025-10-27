@@ -1,15 +1,19 @@
-@media (max-width:512px) {
+@media (max-width: 512px) {
+    body {
+        font-size: 10pt;
+    }
 
     div.head_container {
-        z-index: 2;
-    }
-    
-    div.header img {
-        width: 30pt;
+        z-index: 3;
     }
 
-    div.header h1 {
-        font-size: 18pt;
+    div.big_container{
+        flex-direction: column;  
+    }
+
+    div.display {
+       margin: 0.5pt 1pt 0.5pt 0pt;
+       width: 100%;
     }
 
     div.nav_topic_menu {
@@ -19,9 +23,12 @@
         background-color: white;
     }
 
-    div.topic_menu > button {
-        padding: 3pt 10pt;
-        margin-top: 1pt;
+    button.topic_menu {
+        padding: 0pt 8pt;
+        background-color: rgb(211, 0, 130);;
+        border: none;
+        font-size: 12pt;
+        font-weight: bold;
     }
 
     div.nav {
@@ -29,17 +36,13 @@
         flex: 1;
     }
 
-    div.nav > p {
-       font-size: 10pt; 
+    div.nav p {
+       font-size: 8pt;
+       margin: 0pt; 
     }
 
-    div.big_container{
-        flex-direction: column;
-        margin-top: 52pt;
-    }
-
-    div.container_1 { 
-        font-size: 8pt;
+    div.theory_side_nav, div.piano_side_nav, div.violin_side_nav, div.guitar_side_nav, 
+    div.voice_side_nav, div.recorder_side_nav, div.drum_kit_side_nav {
         position: fixed;
         height: 500pt;
         z-index: 1;
@@ -47,20 +50,16 @@
         position: absolute;
     }
 
-    div.container_1 p {
-        font-size: 12pt;
+    div.landing_header {
+        padding: 10pt 0pt;
+        margin-top: -2pt;
     }
 
-    div.container_2 {
-        width: 100%;
-        margin: 1pt
+    div.landing_display iframe {
+        height: 450pt;
     }
 
-    div.container_2 > div iframe {
-        height: 500pt;
-    }
-
-    div.container_3 p {
+    div.container_2 p {
         margin-top: 0pt;
         font-size: 12pt;
         padding: 5pt 0pt;
