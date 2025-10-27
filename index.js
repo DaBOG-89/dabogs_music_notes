@@ -1,4 +1,4 @@
-let topBar = $("button.topic_menu, div.topic_menu > button, p.home, p.theory, p.piano, p.violin, p.guitar, p.voice, p.recorder, p.drum_kit");
+let topBar = $("div.topic_menu > button, p.home, p.theory, p.piano, p.violin, p.guitar, p.voice, p.recorder, p.drum_kit");
 
 //Mouse Hover Action
 topBar.mouseenter(function () {
