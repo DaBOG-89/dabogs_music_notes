@@ -113,6 +113,10 @@ function checkWidth() {
   if (window.innerWidth < 600) {
         sideBars.hide();
 
+        $("iframe").hover(function () {
+            sideBars.hide();
+        })
+
         $("div.sub_topics p, div.sub_topics_01 p").click(function () {
             sideBars.hide();
         })
